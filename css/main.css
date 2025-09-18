@@ -302,6 +302,17 @@ p{
     color: #0c0c0c;
     
 }
+.study{
+    margin-bottom: 24px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background:linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/images/study-logo.png );
+    background-size: cover;
+}
 .backpack{
     margin-bottom: 24px;
     width: 100%;
@@ -324,6 +335,7 @@ p{
     background:linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/images/middle-logo.png);
     background-size: cover;
 }
+
 
 
 /* Responsive Style
