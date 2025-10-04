@@ -53,19 +53,17 @@ a{
 }
 @media (max-width: 390px){  
     .navbar {
-        width: 100%;
-        
-        
+        width: 100%;   
     }  
     .navbar nav ul li a{
-        font-size: 8px !important;
+        font-size: px !important;
     }
     .navbar nav ul span{
-        font-size: 8px !important;
+        font-size: 16px !important;
         margin-right: 4px !important;
     }
     .navbar .logo img{
-        width: 30px !important;
+        width: 50px !important;
     }
     
     
