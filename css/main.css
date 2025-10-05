@@ -57,6 +57,7 @@ header .navbar nav ul{
 }
 header .navbar nav ul a{
     font-size: 24px;
+    font-family: sans-serif;
 }
 
 a{
@@ -513,7 +514,7 @@ a{
 }
 .category nav ul button{
     justify-content: center;
-    background-color: rgb(196, 196, 195);
+    background-color: rgb(252, 181, 68);
     width: 150px;
     border-radius: 5px;
     height: 30px;
