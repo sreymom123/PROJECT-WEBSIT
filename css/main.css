@@ -25,31 +25,13 @@ header{
     position: sticky;
     top: 0;
     z-index: 1000;
-<<<<<<< HEAD
     
-=======
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-header .navbar nav{
-    flex: 1;
-    text-align: right;
-
-}
-
-header .navbar nav ul li{
-    display: inline-block;
-    margin-right: 20px;
->>>>>>> feature/develop
 }
 
 header .navbar{
     
-    
-    margin: 0px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 header .navbar nav{
     flex: 1;
@@ -59,11 +41,12 @@ header .navbar nav{
 header .navbar nav ul{
     display: inline-block;
     list-style-type: none;
-}
-header .navbar nav ul a{
-    font-size: 24px;
-}
 
+}
+header .navbar nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
 a{
     text-decoration: none;
     color: #555;
@@ -71,9 +54,7 @@ a{
 
 @media (max-width: 390px){  
     .navbar {
-        width: 100%;
-        
-        
+        width: 100%;   
     }  
     .navbar nav ul li a{
         font-size: px !important;
@@ -307,7 +288,29 @@ a{
 }
 
 
+header .navbar{
+    
+    display: flex;
+    align-items: center;
+}
+header .navbar nav{
+    flex: 1;
+    text-align: right;
 
+}
+header .navbar nav ul{
+    display: inline-block;
+    list-style-type: none;
+
+}
+header .navbar nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
 
 
 .product:hover {
@@ -840,7 +843,7 @@ a{
 }
 @media(max-width:768px){
     .navbar nav ul li a{
-        font-size: 13px !important;       
+        font-size: 14px !important;       
     }
     .navbar nav ul span{
         font-size: 12px;
@@ -851,7 +854,7 @@ a{
     }
     
     .navbar nav ul span{
-        font-size: 24px;
+        font-size: 16px;
         margin: 0px !important;
        
     }
@@ -882,9 +885,7 @@ a{
     margin-bottom: 50px;
     max-width: 600px;
     padding: 24px;
-    
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: column;
 }
@@ -1104,10 +1105,6 @@ textarea {
     margin-top: 30px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> main
 .product-container {
     display: flex;
     flex-wrap: wrap;
